@@ -1,0 +1,10 @@
+
+---
+applications:
+- name: Reviewscrapper
+  memory: 0.8GB
+  disk_quota: 1.5GB
+  random-route: true
+  parameters:
+    memory: 0.8GB
+    buildpack: 'python_buildpack'
